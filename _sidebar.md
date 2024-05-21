@@ -1,2 +1,6 @@
 - [Read Me](README)
-- [Example Second Page](second-page)
+
+--- Beginner ---
+
+- [Editor Setup](setup-editor)
+- [Arena Setup](arena)
