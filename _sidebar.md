@@ -1,6 +1,10 @@
 - [Read Me](README)
 
---- Starting Bits ---
+--- SETUP ---
 
 - [Spite (and Vanity) Setup](setup-editor)
+- [Basic Scene Setup](new-scene)
+
+--- BEGINNINGS ---
+
 - [Arena Setup](arena)
