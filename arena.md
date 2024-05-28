@@ -14,15 +14,16 @@
 - - `Nonstuff`
 - - - Place level geometry, lights, and other static stuff such as decor in here.
 - - `Stuff` (this should have a `GoreZone` component on it)
-- - - `Enemies`
+- - - `Trigger`
+- - - `Wave 1`
+- - - `Wave 2`
+- - - `Wave 3`
 
-<span style="font-size:10px;color:grey;">*"Enemies" is an empty gameobject for organisation.*
 
-In `Enemies`, create a cube with `Is Trigger` switched on and the `Activate Arena` component on it. I will refer it to as "Trigger". This will be the trigger that activates the enemies.
+Create as many waves as you want in `Stuff` and add the `Activate Next Wave` component on all of them.
 
-Create as many waves as you want in `Enemies` and add the `Activate Next Wave` component on all of them. I will refer to them as "Waves".
-
-Place your enemies, disable them (<b>excluding fake cerberi and mannequin posers</b>), and put them in the wave you want them to be in. Then, set the wave count of that wave's `Activate Next Wave` to however many enemies there are in the wave.
+Place your enemies, disable them (<b>excluding StatueFake and MannequinPoserWithEnemy Gameobjects </b>), and put them in the wave you want them to be in. Then, set the wave count of that wave's `Activate Next Wave` to however many enemies there are in the wave. (<b>Note: Some enemies like <span style="color:red">V2</span> and <span style="color:#bb0200
+">Puppets</span> for some reason dont count as enemies, however you can make them spawn like normal, just dont include them in the enemy count</b>)
 
 In the Trigger, assign the doors of your room to the `Doors` tab. This will automatically lock them when the trigger is passed. Then, assign the first wave's enemies to the `Enemies` tab. If you have only one wave, make sure to check `Only Wave`.
 
