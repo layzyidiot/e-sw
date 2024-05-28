@@ -9,3 +9,8 @@
 
 - [Arena Setup](arena)
 - [Checkpoint Setup](checkpoints)
+- [Lighting](light)
+
+--- TECHNIQUES ---
+
+- [Slowmo](slowmo)
