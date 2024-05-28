@@ -11,13 +11,13 @@ Start by pressing the <span style="color:red">Spite</span> button in the toolbar
 
 <div style="text-align: center;">
 	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_001.png?raw=true" alt="Spite Tab" width="90%" height="90%" style="margin-bottom: 20px;" >
-	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_007.png?raw=true" alt="Spite Tab" width="30%" height="30%" >
+	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_007.png?raw=true" alt="Scene Tab" width="30%" height="30%" >
 </div>
  
 You will see theres already a statsmanager in the scene, BUT its recommended to delete it, and search for the prefab in your project's assets
 
 <div style="text-align: center;">
-	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_004.png?raw=true" alt="Spite Tab" width="45%" height="45%" >
+	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_004.png?raw=true" alt="StatsManager Tab" width="45%" height="45%" >
 </div>
 
 See this? This is `StatsManager`. What does it do? Well, it basically gives ultrakill the needed info for a level such as the times and kills and style needed plus it has a child named `MusicManager` which from the name manages musics, All to know really about `StatsManager` is that its where you specify alot of things
@@ -28,7 +28,7 @@ See this? This is `StatsManager`. What does it do? Well, it basically gives ultr
 ---
 
 <div style="text-align: center;">
-	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_006.png?raw=true" alt="Spite Tab" width="45%" height="45%" >
+	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_006.png?raw=true" alt="StockMapInfo Tab" width="45%" height="45%" >
 </div>
 
 This is `StockMapInfo` , You can think of it as an extension of `StatsManager` , The key difference is its only used for visual information about the level such as level layer and level name that appear when coming out of the hellevator, It also shows the level name from the tab menu in the `Large Text` field, Another thing is the `Large Image` field which is used by the game's discord RPC system
@@ -40,7 +40,7 @@ Essentially, Using a image hosting website like https://imgbb.com/ , you can upl
 ---
 
 <div style="text-align: center;">
-	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_008.png?raw=true" alt="Spite Tab" width="45%" height="45%" >
+	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_008.png?raw=true" alt="Out of bounds Tab" width="45%" height="45%" >
 </div>
 
 This is `OUT OF BOUNDS` , As from the name, it teleports player to the first room or last checkpoint if the player manages to noclip/fall out of the map.
@@ -50,7 +50,7 @@ Very Useful In Open Maps.
 ---
 
 <div style="text-align: center;">
-	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_009.png?raw=true" alt="Spite Tab" width="45%" height="45%" >
+	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_009.png?raw=true" alt="First room Tab" width="45%" height="45%" >
 </div>
 
 This is by far the most important gameobject in the scene, As it actually contains the player, You may be inclined to use the direct prefab of the first room but that is BROKEN! As it contains missing scripts.
@@ -63,7 +63,7 @@ If you see that the first room in the scene has a missing script on it, Remove i
 ---
 
 <div style="text-align: center;">
-	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_010.png?raw=true" alt="Spite Tab" width="100%" height="100%" >
+	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_010.png?raw=true" alt="Finaldoor Tab" width="100%" height="100%" >
 </div>
 Now the difference between final room and first room is the fact that final room allows you to use its direct prefab, which means you can easily add custom stuff there
 
@@ -73,7 +73,7 @@ Now the difference between final room and first room is the fact that final room
 ---
 
 <div style="text-align: center;">
-	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_003.png?raw=true" alt="Spite Tab" width="45%" height="45%" >
+	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_003.png?raw=true" alt="Eventsystem Tab" width="45%" height="45%" >
 </div>
 
 Do not touch anything about this.

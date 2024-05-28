@@ -8,3 +8,4 @@
 --- BEGINNINGS ---
 
 - [Arena Setup](arena)
+- [Checkpoint Setup](checkpoints)
