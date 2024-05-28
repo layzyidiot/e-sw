@@ -18,6 +18,8 @@
 
 Create as many waves as you want in `Stuff` and add the `Activate Next Wave` component on all of them.
 
+Place non movable/ non interactable stuff such as room geometry into `Non Stuff`
+
 Place your enemies and put them in the wave you want them to be in. Then Disable em, because due to the first note in the page (<b>excluding <span style="color:grey">StatueFake</span> and <span style="color:#bb0200">MannequinPoserWithEnemy</span> Gameobjects </b>), set the wave count of that wave's `Activate Next Wave` to however many enemies there are in the wave. (<b>Note: Some enemies like <span style="color:red">V2</span> and <span style="color:#bb0200">Puppets</span> for some reason dont count as enemies, however you can make them spawn like normal, just dont include them in the enemy count</b>)
 
 In the Trigger, assign the doors of your room to the `Doors` tab. This will automatically lock them when the trigger is passed. Then, assign the first wave's enemies to the `Enemies` tab.
