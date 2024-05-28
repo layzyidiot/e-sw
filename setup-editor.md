@@ -39,3 +39,29 @@ Head over to the latest <span style="color:#ADD8E6"><b>[Releases page for Vanity
 <div style="text-align: center;">
     <img src="https://github.com/layzyidiot/e-sw/blob/main/images/3.png?raw=true" alt="Vanity Releases Page" width="90%" height="90%" >
 </div>
+
+Extract the zip and run Vanity.GUI.exe
+
+<div style="text-align: center;">
+    <img src="https://github.com/layzyidiot/e-sw/blob/main/images/5.png?raw=true" alt="Vanity Releases Page" width="50%" height="50%" >
+</div>
+
+CMD should open up and you should see the splash screen, Follow the instructions until done (<b>Note: Extracting usually takes a while and is heavy on some older computers</b>)
+
+<div style="text-align: center;">
+    <img src="https://github.com/layzyidiot/e-sw/blob/main/images/6.png?raw=true" alt="Vanity Releases Page" width="90%" height="90%" >
+</div>
+
+# <b>POST-EXTRACTION</b>
+
+Once vanity is ran and has completed its guid patchings, you are gonna have to add the project to Unity Hub, This is going to be real simple, Firstly have unity hub open and click the little arrow next to "Add" Button, and select the location of where you choose to install the editor via <span style="color:#FF00FF">Vanity</span>
+
+<div style="text-align: center;">
+    <img src="https://github.com/layzyidiot/e-sw/blob/main/images/AddProject1.png?raw=true" alt="Vanity Releases Page" width="90%" height="90%" >
+</div>
+
+---
+
+<div style="text-align: center;">
+	<h3><b>Tada! <span style="color:red">Spite</span> has been successfuly set up by <span style="color:#FF00FF">Vanity</span></h3>
+</div>

@@ -1,6 +1,6 @@
 - [Read Me](README)
 
---- Beginner ---
+--- Starting Bits ---
 
-- [Editor Setup](setup-editor)
+- [Spite (and Vanity) Setup](setup-editor)
 - [Arena Setup](arena)
