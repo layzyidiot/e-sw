@@ -10,9 +10,15 @@
 - [Arena Setup](arena)
 - [Music Setup](music-manager)
 - [Checkpoint Setup](checkpoints)
+- [Lighting](light)
+- [Navmesh](navmesh)
+- [Slowmo](slowmo)
+- [Compiling your level](compiling)
+
+--- TECHNIQUES/MISC ---
+
 - [Object Activator](object-activator)
 -- [Ultrakill Event](ULTRAKILL-Event)
-- [Lighting](light)
-- [Slowmo](slowmo)
---- TECHNIQUES ---
-
+- [Fixing Enemies](enemy-fix)
+- [Names of Enemies](names)
+- [Custom Plushies](plushy)

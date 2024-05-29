@@ -33,3 +33,7 @@ And attach a `Object Activator` component to it and in the `OnActivate` method, 
 
 
 It isnt recommended to do this but you can also add this to waves (they already slow down the game on finish) by removing the box collider trigger and adding it to the last wave's "To activate" list
+
+--- 
+
+Credits to eternalunion and luka for the images from the rude wiki
