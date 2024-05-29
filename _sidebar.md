@@ -8,6 +8,7 @@
 --- BEGINNINGS ---
 
 - [Arena Setup](arena)
+- [Music Setup](music-manager)
 - [Checkpoint Setup](checkpoints)
 - [Object Activator](object-activator)
 -- [Ultrakill Event](ULTRAKILL-Event)
