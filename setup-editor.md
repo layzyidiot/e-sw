@@ -62,6 +62,12 @@ Once vanity is ran and has completed its guid patchings, you are gonna have to a
 
 ---
 
+# FINAL NOTES
+
+Once you open the project, you'll always be prompted with a window asking to update backends or api related stuff, **Always make sure to say no to these popups when opening <span style="color:red">Spite</span>.**
+
+---
+
 <div style="text-align: center;">
 	<h3><b>Tada! <span style="color:red">Spite</span> has been successfuly set up by <span style="color:#FF00FF">Vanity</span></h3>
 </div>
