@@ -32,6 +32,8 @@ In the Trigger, assign the doors of your room to the `Doors` tab. This will auto
 >If you wanna see your triggers and whats behind them, set the material of your cube to Enemy trigger material, just be sure to set the gameobject's layer to `Invisible`
 >
 >Tired of manually assigning each enemy to the next enemy list? Try clicking on your current wave and hitting the hamburger button in the inspector window and pressing lock, Now you can select multiple enemys at once and drag them on top of the list (<b>Note: Drag them on the Next Enemies header, not the size one</b>)
+>
+>![Drag and Drop](https://coolboi21.github.io/Rude-Docs/Components/assets/ultrakill-event-drag-drop.gif)
 
 For every wave until the last, set the `Next Enemies` tab of the `Activate Next Wave` to the next wave's enemies (<b>Note: For StatueFake, enable their activator which is a child of them, dont put the StatueFake itself</b>), and dont forget to also set the enemy count!
 
