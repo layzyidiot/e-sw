@@ -1,15 +1,13 @@
-# Fixing some enemies.
+# Fixing broken enemies
 <i><span style="color:FireBrick; font-size:10px;">Need help? Come to the Envy & Spite Discord server at <a href="https://discord.gg/RY8J67neJ9">https://discord.gg/RY8J67neJ9</a>!</span></i>
 
-# Beginning
+*Some enemies due to the extraction process via <span style="color:#FF00FF">Vanity</span> are broken. However, we can fix them via easy and somewhat simple solutions. Most commonly broken enemies are the `Sisyphean Insurrectionist` and the `Mindflayer`.*
 
-Sadly, Some enemies due to the extraction process via <span style="color:#FF00FF">Vanity</span> are broken, However, we can fix them via easy and somewhat simple solutions. Noteable examples of broken enemies are like `Sisyphiean Insurrectionist` , and `Mindflayer`
+# FIXING SISYPHEAN INSURRECTIONIST
 
-# FIXING SISYPHIEAN INSURRECTIONIST
+it has a broken IK (<i>Inverse Kinematics</i>) component so click on the Insurrectionist (<i>known as Sisyphus</i>) prefab and press `Open Prefab`. Find the missing script and remove it.
 
-Firsty, it has a broken script so click on Sisyphus prefab and hit `Open prefab`, Proceed to find the missing script and click the hamburger menu and click remove script
-
-Secondly, scroll down and find the `Add component` button, where you wanna search for `Fabric Solver 3D` and copy the following settings from the image bellow.
+Then, scroll down and find the `Add Component` button, where you wanna search for `Fabric Solver 3D` and copy the following settings from the image below.
 
 <div style="text-align: center;">
 	<figure>
@@ -17,7 +15,7 @@ Secondly, scroll down and find the `Add component` button, where you wanna searc
 	</figure>
 </div>
 
-You want to make sure hand.L.006 is the 2nd to last one, not the last one (Look at the bellow image).
+You want to make sure hand.L.006 is the 2nd to last one, not the last one (Look at the below image).
 
 <div style="text-align: center;">
 	<figure>
@@ -29,15 +27,15 @@ You want to make sure hand.L.006 is the 2nd to last one, not the last one (Look 
 
 # FIXING MINDFLAYER
 
-Oh boy, Mindflayer is quite different and somewhat harder than the original Sisyphiean Insurrectionist, But Mindflayers are indeed important enemies, so we must fix them.
+Mindflayer is different and somewhat harder to fix than the original Sisyphean Insurrectionist.
 
-Remember [This](https://layzyidiot.github.io/e-sw/#/checkpoints?id=fixing) part in the wiki? Basically mindflayer has that too, Lets explain what to do.
+Mindflayer, similar to the [Checkpoint](https://layzyidiot.github.io/e-sw/#/checkpoints?id=fixing), requires fixing Asset GUIDs.
 
-Start by going to `PrefabInstances` in your project and find `Mindflayer.prefab` where you wanna open it with a text editor and search for `deathExplosion` and copy the `m_AssetGUID`'s value, Now search inside of `PrefabInstances` for `Explosion Mindflayer.prefab.meta` **IT MUST BE THE META!** And paste in the guid you copied from the mindflayer.
+Start by going to `PrefabInstances` in your project and find `Mindflayer.prefab`. Open it with a text editor such as <i>Notepad++</i>, search for `deathExplosion` and copy the `m_AssetGUID`'s value. Now, search inside of `PrefabInstances` for `Explosion Mindflayer.prefab.meta` <b>META FILE, NOT PREFAB!</b> And paste in the GUID you copied from the Mindflayer prefab.
 
-We're not done yet, Go to `Assets\ULTRAKILL Assets\ExportedProject\Assets\Scripts\Assembly-CSharp` and find `Mindflayer.cs` where we want to delete the line `HideInInspector` above the active field, Now we are done with the file editing, its time for asset assigning in the editor.
+Now, go to `Assets\ULTRAKILL Assets\ExportedProject\Assets\Scripts\Assembly-CSharp` and find `Mindflayer.cs`. Open it with a text editor and delete the line containing `HideInInspector` above the active field.
 
-From the image bellow, you're gonna want to copy every value you can, Most of these prefabs are from your project's assets except for `Model` , Everything under `Tentacles` , `Right Hand` , `Charge Particle` , `Original Glow` and finally `Enrage Glow` , You might notice the color down below `Enrage Glow` The value for the blue color is **PLACEHOLDER**
+From the image below, you're gonna want to copy every value you can to your version of the Mindflayer prefab. Most of these prefabs are from your project's assets except for `Model` , Everything under `Tentacles` , `Right Hand` , `Charge Particle` , `Original Glow` and `Enrage Glow`. You might notice the color down below `Enrage Glow`. The value for the blue color is **PLACEHOLDER**
 
 <div style="text-align: center;">
 	<figure>
@@ -45,7 +43,7 @@ From the image bellow, you're gonna want to copy every value you can, Most of th
 	</figure>
 </div>
 
-Now as for `Tentacles` , Lock the inspector and drag these into the `Tentacles` list.
+Now as for `Tentacles`, lock the inspector and drag as following into the `Tentacles` list -
 
 <div style="text-align: center;">
 	<figure>
@@ -55,4 +53,4 @@ Now as for `Tentacles` , Lock the inspector and drag these into the `Tentacles` 
 
 ---
 
-In conclusion these enemies are needed in every ultrakill level but sadly <span style="color:#FF00FF">Vanity</span> breaks them. If theres any enemies that need fixing, let me know in the [<b>discord server</b>](https://discord.gg/RY8J67neJ9).
+If theres any other enemies that need fixing, let us know in the [<b>discord server</b>](https://discord.gg/RY8J67neJ9).
