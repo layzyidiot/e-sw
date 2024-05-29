@@ -29,4 +29,9 @@ So lets firstly drag Checkpoint_0 into our scene and we can see some fields, Mai
 
 Now `Rooms to Inherit` is what you mainly want to be using, the stuff you assign to it will be saved once you HIT the checkpoint not during the start of the map, Additionally, if you are using this for encounters, Assign the `Stuff` gameobject here
 
-Lastly `To activate` and `Doors To Unlock` , Lets explain `To activate` as it is the simplest , Basically hitting the checkpoint will activate this gameobject , This is useful for optimization if you want to have a massive area full of gameobjects to be disabled before you enter your room , Alright now time for `Doors To Unlock` , Its purpose is to unlock any doors once you enter and an arena and you die, Rememeber the door you assigned in the wave? Yeah, this unlocks it when you respawn so you can go back into the arena
+Last but not least we have two things left, `To Activate`'s list and `Doors to Unlock`'s list, these are rather simple:
+
+- `To Activate` - Is a list where once the player hits the checkpoint, those gameobjects in the list will get activated.
+	- This is pretty useful for optimization because it allows big sections of levels to be disabled up until you reach them.
+	
+- `Doors to Unlock` - Is a really important list, as it unlocks previously locked doors from if you were in a wave and you died, Wouldnt be nice if you died during a encounter and the door was still locked and you couldnt get in.
