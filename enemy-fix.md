@@ -13,7 +13,7 @@ Secondly, scroll down and find the `Add component` button, where you wanna searc
 
 <div style="text-align: center;">
 	<figure>
-		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/sisyphus1.png" alt="Fabrik Solver 3D" width="50%" height="50%">
+		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/sisyphus1.png?raw=true" alt="Fabrik Solver 3D" width="50%" height="50%">
 	</figure>
 </div>
 
@@ -21,7 +21,7 @@ You want to make sure hand.L.006 is the 2nd to last one, not the last one (Look 
 
 <div style="text-align: center;">
 	<figure>
-		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/sisyphus2.webp" alt="Hand.L.006" width="30%" height="30%">
+		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/sisyphus2.webp?raw=true" alt="Hand.L.006" width="30%" height="30%">
 	</figure>
 </div>
 
@@ -41,7 +41,7 @@ From the image bellow, you're gonna want to copy every value you can, Most of th
 
 <div style="text-align: center;">
 	<figure>
-		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/mindflayer1.png" alt="Mindflayer Script" width="35%" height="35%">
+		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/mindflayer1.png?raw=true" alt="Mindflayer Script" width="35%" height="35%">
 	</figure>
 </div>
 
@@ -49,7 +49,7 @@ Now as for `Tentacles` , Lock the inspector and drag these into the `Tentacles` 
 
 <div style="text-align: center;">
 	<figure>
-		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/mindflayer2.png" alt="Mindflayer Hierarchy" width="50%" height="50%">
+		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/mindflayer2.png?raw=true" alt="Mindflayer Hierarchy" width="50%" height="50%">
 	</figure>
 </div>
 

@@ -9,7 +9,7 @@ First click on the spite button on the toolbar and hit `Compile Level` and this 
 
 <div style="text-align: center;">
 	<figure>
-		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/compile1.png" alt="Compiling" width="50%" height="50%">
+		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/compile1.png?raw=true" alt="Compiling" width="50%" height="50%">
 	</figure>
 </div>
 

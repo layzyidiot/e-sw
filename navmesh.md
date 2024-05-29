@@ -13,7 +13,7 @@ Baking navmesh into the scene is pretty straight foward, To start, Click on the 
 
 <div style="text-align: center;">
 	<figure>
-		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/navmesh1.png" alt="Hand.L.006" width="90%" height="90%">
+		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/navmesh1.png?raw=true" alt="Hand.L.006" width="90%" height="90%">
 	</figure>
 </div>
 
@@ -21,7 +21,7 @@ Afterwards you are gonna see this menu after clicking on `Navigation`.
 
 <div style="text-align: center;">
 	<figure>
-		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/navmesh2.png" alt="Hand.L.006" width="40%" height="40%">
+		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/navmesh2.png?raw=true" alt="Hand.L.006" width="40%" height="40%">
 	</figure>
 </div>
 
@@ -31,7 +31,7 @@ Make sure to select every place you plan your enemies to walk on, AND MAKE SURE 
 
 <div style="text-align: center;">
 	<figure>
-		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/navmesh3.png" alt="Hand.L.006" width="90%" height="90%">
+		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/navmesh3.png?raw=true" alt="Hand.L.006" width="90%" height="90%">
 	</figure>
 </div>
 
@@ -39,7 +39,7 @@ Finally Once you are done, It is time to bake our navmesh, Head to the bake tab 
 
 <div style="text-align: center;">
 	<figure>
-		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/navmesh4.png" alt="Hand.L.006" width="40%" height="40%">
+		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/navmesh4.png?raw=true" alt="Hand.L.006" width="40%" height="40%">
 	</figure>
 </div>
 
