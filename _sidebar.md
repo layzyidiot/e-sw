@@ -22,3 +22,4 @@
 - [Fixing Enemies](enemy-fix)
 - [Names of Enemies](names)
 - [Custom Plushies](plushy)
+- [Symbiote](symbiote)
