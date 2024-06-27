@@ -3,28 +3,28 @@
 
 # Beginning
 
-Every good ultrakill level has to have music, Other wise it would be very bland fighting enemies.
+Every good Ultrakill level has to have music, Otherwise it would leave levels bland and unexciting.
 
 `MusicManager` Is a gameobject thats a child of `StatsManager` its job is very apparent from it's name, It manages music in the level, Specifically Clean music and Combat music and music for bosses.
 
-If you used the statsmanager prefab from the [Basic Scene Setup](new-scene), it should be already set, and all you have to do is make `MusicChanger` triggers. But before that, Lets explain each field of `MusicManager`.
+If you used the statsmanager prefab from the [Basic Scene Setup](new-scene), it should be already set, and all you have to do is make `MusicChanger` triggers. But before that, let's explain each field of `MusicManager`.
 
 ---
 
 # Fields
 
-* **Off** - Exactly what you think, just disabled or enables music in the level.
+* **Off** - Exactly what you think. It disables or enables music in the level.
 
-* **Volume** - Is a floating point variable where 1 is full blast and 0 is none, For example if i want the volume in my level to be half that of its original volume (maybe via a object activator) , I'd change the volume variable to `0.5`.
+* **Volume** - is a floating point variable where 1 is full blast and 0 is none, For example if you want the volume in your level to be half that of it's original volume (commonly via an object activator), you'd change the volume variable to `0.5`.
 
-- **filtering** - is a variable declared in Update() — it's a high pass filter
+- **filtering** - is a variable declared in Update() — it's a high-pass filter
 - **arenamode** - is a variable representing the state of the arena — if it has enemies, a boss?, or if it's clean.
 - **allThemes** - is an array of the following themes:
     - `cleanTheme`
     - `battleTheme`
     - `bossTheme`
     - *`targetTheme`*
-        - Before any music is played, `targetTheme` is set to `None`, this is because none of the themes are actually played. Instead, they are copied to `targetTheme` when needed.
+        - Before any music is played, `targetTheme` is set to `None`. This is because none of the themes are actually played. Instead, they are copied to `targetTheme` when needed.
     - These are the 3 (*excluding targetTheme*) AudioClips declared in `MusicManager`.
 
 - **allTheme** - is the variable used in the array `allThemes`.
@@ -36,7 +36,7 @@ If you used the statsmanager prefab from the [Basic Scene Setup](new-scene), it 
 
 # Functions
 
-The rude docs has way too many functions here so ill simplify it here by explaining at most what you would probably want to do with music in your level.
+*Note: This is a shortened list of all functions avalible to `MusicManager`.*
 
 - `StartMusic()` - if the variable `forcedOff` is `true`, don't do anything. Start every declared theme at 0:00, turn the `off` variable to `false`, change cleanTheme's volume to the volume declared in `MusicManager`.
 
@@ -50,9 +50,9 @@ The rude docs has way too many functions here so ill simplify it here by explain
 
 # Actually Using Music Changer
 
-Finally, We are gonna explain how to change and play music in your levels, I hope this section is way more comprehendable than the graph over at the rude wiki.
+Finally, we are going to explain how to change and play music in your levels, I hope this section is way more comprehendable than the graph over at the rude wiki.
 
-We are gonna start by creating an empty gameobject and then we'll add a box collider component to it and setting it to be a trigger, then we're going to hit `Add Component` and search for the `MusicChanger` component,
+Start by creating an empty gameobject and then add a box collider component to it and set it to be a trigger. Select `Add Component` and search for the `MusicChanger` component.
 
 <div style="text-align: center;">
 	<figure>
@@ -61,10 +61,10 @@ We are gonna start by creating an empty gameobject and then we'll add a box coll
 	</figure>
 </div>	
 
-Now you may realize that in the previous fields section, i havent talked about a few fields like `Match` or `OnEnable` well thats because i was saving them up for this section, Ill explain each purpose of each one.
+You may realize that in the previous fields section, the fields like `Match` or `OnEnable` were missing. They are going to be discussion in this section.
 
-- `Match` - is used if you already have music in your level playing and you want to switch to a different version on it **WHILE ALSO** matching the play time from the original song to the 2nd one, An example of this is a boss changing his music during him getting knocked down.
+- `Match` - is used if you already have music in your level playing and you want to switch to a different version on it **WHILE ALSO** matching the play time from the original song to the 2nd one. An example of this would be the music progression upon the second Cerberus' awakening in 0-5
 
 - `OnEnable` - is used for just, enabling stuff when the music starts. i really dont understand why this exists even?
 
-- `OneTime` - makes the trigger only fire the music once, This is recommended to be turned on as having the music restart everytime you exit and enter the trigger isnt fun on the ears.
+- `OneTime` - makes the trigger only start the music once. This option is recommended to be left on as music restarting upon each trigger activation is rarely desired.
