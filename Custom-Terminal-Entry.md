@@ -1,15 +1,15 @@
 # Custom Terminal Entry
 <i><span style="color:FireBrick; font-size:10px;">Need help? Come to the Envy & Spite Discord server at <a href="https://discord.gg/RY8J67neJ9">https://discord.gg/RY8J67neJ9</a>!</span></i>
----
 
-# Begining
+
+# Beginning
 Lets assume you have made a custom enemy and now you want to make its own entry in the terminal. This page will show you how to do it.
 
 # Creating a Custom Terminal Entry
 1. In the "Shop" find a "Enemies" gameobject.
-<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Spelar_1.png?raw=true" alt="Spelar_1" width="110%" height="110%">
+<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Spelar_1.png?raw=true" alt="Spelar_1" width="40%" height="40%">
 
-2. In its "Enemy Info Page" find a "Bestiary Database". Select it. Unity will show you its location. Click on it.
+2. In it's "Enemy Info Page" find a "Bestiary Database". Select it. Unity will show you its location. Click on it.
 
 3. In it you will see this.
 <img src="https://github.com/layzyidiot/e-sw/blob/main/images/Spelar_2.png?raw=true" alt="Spelar_2" width="110%" height="110%">
@@ -27,13 +27,13 @@ Now you have a terminal entry for your enemy.
 
 Object name, type, description and strategy are pretty straightforward.
 
-Game object-The prefab of your enemy.
+Game object : The prefab of your enemy.
 
-Preview-Model of your enemy.
+Preview : Model of your enemy. (eg. the Preview Variant enemy prefabs)
 
-Grid Icon-The icon of your enemy in the menu.
+Grid Icon : The icon of your enemy in the menu.
 
-Background color-Each enemy type has a specific color attached to it.Here is the list of them.
+Background color : Each enemy type has a specific color attached to it. Here is the list of them :
 
 <p style="color:#E5A8A8;">Husks-Light Pink #E5A8A8</p>
 
@@ -47,9 +47,7 @@ Background color-Each enemy type has a specific color attached to it.Here is the
 
 <p style="color:#BFBFBF;">Other(Secret Enemies,Prisons)-Light Grey #BFBFBF</p>
 
-<p style="color:Red;">DONT TOUCH ANYTHING THAT WAS NOT MENTIONED HERE.</p>
-
-Page by:Spelar
+Page by Spelar
 
 
 
