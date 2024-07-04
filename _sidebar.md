@@ -23,3 +23,4 @@
 - [Names of Enemies](names)
 - [Custom Plushies](plushy)
 - [Symbiote](Symbiote)
+- [Custom Terminal Entry](Custom-Terminal-Entry)
