@@ -24,4 +24,4 @@
 - [Custom Plushies](plushy)
 - [Dual Bosses](Symbiote)
 - [Custom Terminal Entry](Custom-Terminal-Entry)
-- [Fog](fog)
+
