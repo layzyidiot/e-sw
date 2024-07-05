@@ -1,4 +1,4 @@
-- [Read Me](README)
+- [Welcome](README)
 
 --- SETUP ---
 
@@ -11,16 +11,17 @@
 - [Music Setup](music-manager)
 - [Checkpoint Setup](checkpoints)
 - [Lighting](light)
-- [Navmesh](navmesh)
-- [Slowmo](slowmo)
+- [NavMesh](navmesh)
+- [Slow-Mo](slowmo)
 - [Compiling your level](compiling)
+- [Object Activator](object-activator)
+-- [Ultrakill Event](ULTRAKILL-Event)
 
 --- TECHNIQUES/MISC ---
 
-- [Object Activator](object-activator)
--- [Ultrakill Event](ULTRAKILL-Event)
 - [Fixing Enemies](enemy-fix)
 - [Names of Enemies](names)
 - [Custom Plushies](plushy)
-- [Symbiote](Symbiote)
+- [Dual Bosses](Symbiote)
 - [Custom Terminal Entry](Custom-Terminal-Entry)
+- [Fog](fog)

@@ -20,9 +20,9 @@ But before that you must know a *few* things.
 > [!NOTE]
 > Do note that when creating custom materials/textures, ALWAYS SET THEIR SHADER TO VERTEXLIT/VERTEXLIT! If you use the standard unity shader it will look bad.
 
-# Creating lights and their different use cases
+# Creating light sources and their different use cases
 
-To create a light right click in the scene menu and hit light and choose what you need.
+To create a light source right click in the scene menu and hit light and choose what you need.
 
 <img src="https://coolboi21.github.io/Rude-Docs/Tutorials/Beginner/assets/lighting-101-creating-a-light.png" alt="Creating light" width="70%" height="70%" >
 

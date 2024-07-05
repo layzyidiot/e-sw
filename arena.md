@@ -8,7 +8,7 @@
 >*You can also intentionally leave enemies activated*. *For example, `P-2` does this with idols, which are always present and don't have a spawn effect*.
 
 > [!TIP]
->It is recommended to use [<span style="color:#ADD8E6">Megga__'s Room creator</span>](https://discord.com/channels/1227272001719111750/1227284829423271957/1243585525613592577) from the discord server as it automatically sets up the basic needed arena and waves.
+>It is recommended to use [<span style="color:#ADD8E6">Megga__'s Room creator</span>](https://discord.com/channels/1227272001719111750/1227284829423271957/1243585525613592577) or [<span style="color:#ADD8E6">Room Creator by lazyidiot</span>](https://discord.com/channels/1227272001719111750/1245076859365097482) from the discord server as they automatically set up the basic needed arena and waves.
 ><img src="https://github.com/layzyidiot/e-sw/blob/main/images/Room%20making.png?raw=true" alt="Megga's room maker" width="65%" height="65%">
 
 
@@ -49,7 +49,7 @@ When you reach the last wave, leave the `Next Enemies` tab blank, and set the `D
 
 ---
 
-# ADVANCED ARENAS
+# Advanced Arenas
 
 *This was taken from the Tundra Level Editor wiki.*
 

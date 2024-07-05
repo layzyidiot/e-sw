@@ -9,6 +9,12 @@ Lets get started by first creating a new scene in <span style="color:red">Spite<
 
 Start by pressing the <span style="color:red">Spite</span> button in the toolbar and hit `New Level` , Name the scene whatever you want and anywhere in the project (preferably in a folder inside the project specifically for it due to organization)
 
+>[!TIP]
+>
+>Its better to open and modify the "DONOTDELETE" scene in the Assets/SPITE/scenes/DONOTDELETE. This way you will not have to do these steps every time you create a new level, because Spite just copies this scene every time you do so.
+>***But you need to follow this page to the letter if you decide to modify it.***
+>-Spelar
+
 <div style="text-align: center;">
 	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_001.png?raw=true" alt="Spite Tab" width="90%" height="90%" style="margin-bottom: 20px;" >
 	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_007.png?raw=true" alt="Scene Tab" width="30%" height="30%" >
@@ -57,8 +63,25 @@ This is by far the most important gameobject in the scene, As it actually contai
 
 If you see that the first room in the scene has a missing script on it, Remove it and click add component and search for addressable replacer and type in the Target Address field `FirstRoom`
 
-> [!NOTE]
+> [!TIP]
 > The box collider you see is actually the position of the doors , If you are planning to add a custom terminal in the first room , it is recommended to drag the prefab of the real first room under the fake first room to make it a child and set its rotation and position to 0 0 0 and then work with it as if it were a preview, afterwards just delete the room and keep the fake one
+
+>[!TIP]
+>
+>If you want to modify the First Room itself you can:
+>
+>1.Place the First Room prefab from ULTRAKILL assets and unpack it.
+>
+>2.Create a gameobject "Player_2" as a child of the "Player" gameobject and with a addressable replacer set to "FirstRoom Player Only". Uncheck the "Destroy This" booleans. ***Make sure its rotation and position are equal to 0***.
+>
+>3.Move the created gameobject outside of "Player" and delete the "Player".
+>
+>4.Place a "PlayerUtilities" gameobject as a child of "Player_2" with a "PlayerUtilities" component.
+>
+>5.Place a "Object Activator" component to the "Player_2" and put "PlayerUtilities" to the "On Activate" with a "DisablePlayer()"
+>
+>-Spelar
+
 
 ---
 

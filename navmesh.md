@@ -7,7 +7,7 @@ What is navmesh? A navmesh, short for navigation mesh, its commonly used in vide
 
 ---
 
-# HOW TO BAKE NAVMESH
+# How To Bake A NavMesh
 
 Baking navmesh into the scene is pretty straight foward, To start, Click on the `Window` button in Unity's toolbar and go to `Window -> AI -> Navigation`
 
@@ -27,7 +27,7 @@ Afterwards you are gonna see this menu after clicking on `Navigation`.
 
 ---
 
-Make sure to select every place you plan your enemies to walk on, AND MAKE SURE TO MARK IT STATIC IN THE MENU! Oh and dont forget the important step of marking whether the gameobject is a floor or a wall + setting what layer it is, Such as enviroment for indoor gameobjects, and outdoors for outdoors gameobjects. 
+Select every place you plan your enemies to walk on, and mark them as "Static" in the Inspector. And dont forget the important step of marking whether the gameobject is a floor or a wall + setting what layer it is, such as enviroment for indoor gameobjects, and outdoors for outdoors gameobjects. 
 
 <div style="text-align: center;">
 	<figure>
