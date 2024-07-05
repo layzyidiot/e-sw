@@ -34,6 +34,12 @@ Head to the first link for <span style="color:#ADD8E6"><b>[DotNet SDK 8.0](https
 
 # <b>Time to actually use <span style="color:#FF00FF">Vanity</span> itself.</b>
 
+> **<code style="color : red">[!CAUTION]</code>**
+> **<code style="color : red">Vanity extracts a lot of ultrakill assets and usually is heavy on most pcs.</code>**
+**<code style="color : red">It is recommended to have between 9-12 GB of storage on your pc.</code>**
+<!-- This thing looks horrible lmao -->
+
+
 Head over to the latest <span style="color:#ADD8E6"><b>[Releases page for Vanity](https://github.com/ImNotSimon/Vanity-tool/releases/)</b></span>, and download the latest .rar file
 
 <div style="text-align: center;">

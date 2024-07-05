@@ -8,6 +8,6 @@ Making plushies is straight foward, All you have to do is search a already exist
 <div style="text-align: center;">
 	<figure>
 		<img src="https://github.com/layzyidiot/e-sw/blob/main/images/plushy.png?raw=true" alt="God" width="100%" height="100%">
-		<figcaption>Why is there page on this? This is so stupid.</figcaption>
 	</figure>
 </div>
+<!-- Oh forgive me Doomah for the crimes that i have made. -->

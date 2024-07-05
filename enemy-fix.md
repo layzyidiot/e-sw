@@ -3,8 +3,7 @@
 
 *Some enemies due to the extraction process via <span style="color:#FF00FF">Vanity</span> are broken. However, we can fix them via easy and somewhat simple solutions. Most commonly broken enemies are the `Sisyphean Insurrectionist` and the `Mindflayer`.*
 
-# FIXING SISYPHEAN INSURRECTIONIST
-
+# Fixing Sisyphean Insurrectionist
 it has a broken IK (<i>Inverse Kinematics</i>) component so click on the Insurrectionist (<i>known as Sisyphus</i>) prefab and press `Open Prefab`. Find the missing script and remove it.
 
 Then, scroll down and find the `Add Component` button, where you wanna search for `Fabric Solver 3D` and copy the following settings from the image below.
@@ -25,7 +24,7 @@ You want to make sure hand.L.006 is the 2nd to last one, not the last one (Look 
 
 ---
 
-# FIXING MINDFLAYER
+# Fixing Mindflayer
 
 Mindflayer is different and somewhat harder to fix than the original Sisyphean Insurrectionist.
 
