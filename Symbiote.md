@@ -22,9 +22,4 @@ For the enemies to heal, you require an animation in the enemy animation control
 
 Activate them like you would normally, using `Activate Arena` and `Activate Next Wave`.
 
-
-
-
-<span style="color:Grey;font-size:15px;">* I have no fucking clue if it works or not I havent tested it yet</span>
-
-<!-- I couldnt find the "Knockdown" animation. So i cant test this. -Spelar -->
+<!-- It works. -Spelar -->
