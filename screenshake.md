@@ -21,3 +21,5 @@
 > [!NOTE]
 >Screenshake' will work as long as the gameobject it's put into is enabled.
 
+Page by: Spelar
+
