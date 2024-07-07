@@ -12,7 +12,7 @@
 		* [Checkpoint Setup](checkpoints)
 		* [Lighting](light)
 		* [NavMesh](navmesh)
-    		* [Optimization](optimization)
+       * [Optimization](optimization)<!--wtf?-->
 		* [Compiling your level](compiling)
 	* --Components--
 		* [Slow-Mo](slowmo)
