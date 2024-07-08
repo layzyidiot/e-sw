@@ -3,7 +3,7 @@
 	
 	Welcome to the <span style="color:cyan">Envy</span> and <span style="color:red">Spite</span> wiki.
 	
-	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/header2.png?raw=true" alt="Header" width="90%" height="90%">
+	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/new.png?raw=true" alt="Header" width="90%" height="90%">
 </div>
 
 ---
