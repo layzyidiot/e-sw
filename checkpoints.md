@@ -17,11 +17,11 @@ Go ahead now and find `CheckpointActivate.prefab.meta` now, and change its guid 
 
 # Actual usage
 
-<b>Alright lets explain 1 thing, Checkpoints can crash your game. Yes thats right folks! They can <i>if</i> you do it wrong just <i>if</i> you do them wrong.</b>
+<b>Alright lets explain 1 thing, Checkpoints can crash your game.</b>
 
 *But you may be wondering why?*
 
-Well thats due to you having a checkpoint which contains a room/gameobject that has another checkpoint under it! So in the end, It is your fault! <b>sowwy for hwurting uou fweelings :(</b>
+Well thats due to you having a checkpoint which contains a room/gameobject that has another checkpoint under it.
 
 So lets firstly drag Checkpoint_0 into our scene and we can see some fields, Mainly `Rooms` and `Rooms to Inherit` , but what does this all mean? Well basically, `Rooms` is what gets saved when the scene is loaded, This isnt usually recommended but its there.
 
