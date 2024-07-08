@@ -1,8 +1,8 @@
 * [Welcome](README)
 
 * --- SETUP ---
-	- [Spite (and Vanity) Setup](setup-editor)
-	- [Basic Scene Setup](new-scene)
+	-[Spite (and Vanity) Setup](setup-editor)
+	-[Basic Scene Setup](new-scene)
 
 * --- BEGINNINGS ---
 	*  --Tutorials--
