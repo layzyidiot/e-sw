@@ -2,7 +2,7 @@
 
 * --- SETUP ---
 	* [Spite (and Vanity) Setup](setup-editor)<!--wtf-->
-  	* [Basic Scene Setup](new-scene)
+	* [Basic Scene Setup](new-scene)
 
 * --- BEGINNINGS ---
 	*  --Tutorials--
