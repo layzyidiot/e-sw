@@ -2,8 +2,8 @@
 
 * --- SETUP ---
 
-* [Spite (and Vanity) Setup](setup-editor)
-* [Basic Scene Setup](new-scene)
+	* [Spite (and Vanity) Setup](setup-editor)
+	* [Basic Scene Setup](new-scene)
 
 * --- BEGINNINGS ---
 	*  --Tutorials--
@@ -12,7 +12,7 @@
 		* [Checkpoint Setup](checkpoints)
 		* [Lighting](light)
 		* [NavMesh](navmesh)
-       * [Optimization](optimization)<!--wtf?-->
+       * [Optimization](optimization)<!--github wtf?-->
 		* [Compiling your level](compiling)
 	* --Components--
 		* [Slow-Mo](slowmo)
