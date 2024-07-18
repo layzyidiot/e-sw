@@ -1,8 +1,9 @@
 * [Welcome](README)
 
-- --- SETUP ---
-  - [Spite (and Vanity) Setup](setup-editor)<!--wtf-->
-  - [Basic Scene Setup](new-scene)<!--idk why tf this happened-->
+* --- SETUP ---
+
+	* [Spite (and Vanity) Setup](setup-editor)
+	* [Basic Scene Setup](new-scene)
 
 * --- BEGINNINGS ---
 	*  --Tutorials--
@@ -10,8 +11,8 @@
 		* [Music Setup](music-manager)
 		* [Checkpoint Setup](checkpoints)
 		* [Lighting](light)
+		* [Optimization](optimization)
 		* [NavMesh](navmesh)
-       * [Optimization](optimization)<!--github wtf?-->
 		* [Compiling your level](compiling)
 	* --Components--
 		* [Slow-Mo](slowmo)
@@ -20,6 +21,7 @@
 		* [Screenshake Component](screenshake)
 
 * --- TECHNIQUES/MISC ---
+	* [Level Compressing](compress)
 	* [Fixing Enemies](enemy-fix)
 	* [Names of Enemies](names)
 	* --Techniques--
