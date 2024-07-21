@@ -80,7 +80,9 @@ If you see that the first room in the scene has a missing script on it, Remove i
 >
 >5. Place an "Object Activator" component to the "Player_2" and put "PlayerUtilities" to the "On Activate" with a "DisablePlayer()"
 >
->*But be aware that pausing will cause the game to freeze.*
+>*But be aware that pausing will cause the player to freeze.*
+>
+>If you have encountered this issue , press the 'Resume' button in the pause menu.
 >
 >-Spelar
 
