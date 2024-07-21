@@ -28,8 +28,8 @@ You will see theres already a statsmanager in the scene, BUT its recommended to 
 
 See this? This is `StatsManager`. What does it do? Well, it basically gives ultrakill the needed info for a level such as the times and kills and style needed plus it has a child named `MusicManager` which from the name manages musics, All to know really about `StatsManager` is that its where you specify alot of things
 
-> [!TIP]
->Set the level number to 1 to be able to open the tab menu to see rankings and time and etc
+> [!IMPORTANT]
+>Set the level number to -1 to be able to open the tab menu to see rankings and time and etc.
 
 ---
 
@@ -65,23 +65,6 @@ If you see that the first room in the scene has a missing script on it, Remove i
 
 > [!TIP]
 > The box collider you see is actually the position of the doors , If you are planning to add a custom terminal in the first room , it is recommended to drag the prefab of the real first room under the fake first room to make it a child and set its rotation and position to 0 0 0 and then work with it as if it were a preview, afterwards just delete the room and keep the fake one
-
->[!TIP]
->
->If you want to modify the First Room itself you can:
->
->1.Place the First Room prefab from ULTRAKILL assets and unpack it.
->
->2.Create a gameobject "Player_2" as a child of the "Player" gameobject and with a addressable replacer set to "FirstRoom Player Only". Uncheck the "Destroy This" booleans. ***Make sure its rotation and position are equal to 0***.
->
->3.Move the created gameobject outside of "Player" and delete the "Player".
->
->4.Place a "PlayerUtilities" gameobject as a child of "Player_2" with a "PlayerUtilities" component.
->
->5.Place a "Object Activator" component to the "Player_2" and put "PlayerUtilities" to the "On Activate" with a "DisablePlayer()"
->
->-Spelar
-
 
 ---
 
