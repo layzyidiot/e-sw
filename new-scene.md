@@ -81,10 +81,12 @@ This is by far the most important gameobject in the scene, As it actually contai
 
 ---
 
+## Final Door
+
 <div style="text-align: center;">
 	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_010.png?raw=true" alt="Finaldoor Tab" width="100%" height="100%" >
 </div>
-Now the difference between final room and first room is the fact that final room allows you to use its direct prefab, which means you can easily add custom stuff there.
+The difference between final room and first room is the fact that final room allows you to use its direct prefab, which means you can easily add custom stuff there.
 
 > [!NOTE]
 > Do not be alarmed that the final room has no pit , Upon the activation of the gameobject `FinalDoorOpener` the door opens and the pit is activated.
