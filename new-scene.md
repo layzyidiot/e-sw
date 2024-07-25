@@ -59,32 +59,25 @@ Very Useful In Open Maps.
 	<img src="https://github.com/layzyidiot/e-sw/blob/main/images/Image_009.png?raw=true" alt="First room Tab" width="45%" height="45%" >
 </div>
 
-This is by far the most important gameobject in the scene, As it actually contains the player, You may be inclined to use the direct prefab of the first room but that is *BROKEN*! As it contains missing scripts.
+This is by far the most important gameobject in the scene, As it actually contains the player, You may be inclined to use the direct prefab of the first room but it requires some tweaks before it can be used. As it contains missing scripts.
 
-If you see that the first room in the scene has a missing script on it, Remove it and click 'add component' and search for 'addressable replacer' and type in the Target Address field `FirstRoom`
+<details>
 
-> [!TIP]
-> The box collider you see is actually the position of the doors, If you are planning to add a custom terminal in the first room, it is recommended to drag the prefab of the real first room under the fake first room to make it a child and set its rotation and position to 0 0 0 and then work with it as if it were a preview, afterward just delete the room and keep the fake one.
+<summary>If you want to use the direct First Room:</summary>
 
->[!TIP]
->
->If you want to modify the First Room itself you can:
->
->1. Place the First Room prefab from ULTRAKILL assets and unpack it.
->
->2. Create a gameobject "Player_2" as a child of the "Player" gameobject and with an 'addressable replacer' set to 'FirstRoom Player Only'. Uncheck the 'Destroy This' boolean. ***Make sure its rotation and position are equal to 0***.
->
->3. Move the created gameobject outside of "Player" and delete the "Player".
->
->4. Place a "PlayerUtilities" gameobject as a child of "Player_2" with a "PlayerUtilities" component.
->
->5. Place an "Object Activator" component to the "Player_2" and put "PlayerUtilities" to the "On Activate" with a "DisablePlayer()"
->
->*But be aware that pausing will cause the player to freeze.*
->
->If you have encountered this issue , press the 'Resume' button in the pause menu.
->
->-Spelar
+1. Place the First Room prefab from ULTRAKILL assets and unpack it.
+
+2. Create a gameobject "Player_2" as a child of the "Player" gameobject and with an 'addressable replacer' set to 'FirstRoom Player Only'. Uncheck the 'Destroy This' boolean. ***Make sure its rotation and position are equal to 0***.
+
+3. Move the created gameobject outside of "Player" and delete the "Player".
+
+4. Place a "PlayerUtilities" gameobject as a child of "Player_2" with a "PlayerUtilities" component.
+
+5. Place an "Object Activator" component to the "Player_2" and put "PlayerUtilities" to the "On Activate" with a "DisablePlayer()"
+
+6. Disable a 'GameController' gameobject.
+
+</details>
 
 ---
 
