@@ -63,7 +63,7 @@ This is by far the most important gameobject in the scene, As it actually contai
 
 <details>
 
-<summary>If you want to use the direct First Room:</summary>
+<summary>## If you want to use the direct First Room:</summary>
 
 1. Place the First Room prefab from ULTRAKILL assets and unpack it.
 
