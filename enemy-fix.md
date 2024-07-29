@@ -26,7 +26,7 @@ You want to make sure hand.L.006 is the 2nd to last one, not the last one (Look 
 
 # Fixing Mindflayer
 
-Mindflayer is different and somewhat harder to fix than the original Sisyphean Insurrectionist.
+Mindflayer is different and harder to fix than the original Sisyphean Insurrectionist.
 
 Mindflayer, similar to the [Checkpoint](https://layzyidiot.github.io/e-sw/#/checkpoints?id=fixing), requires fixing Asset GUIDs.
 
@@ -34,7 +34,22 @@ Start by going to `PrefabInstances` in your project and find `Mindflayer.prefab`
 
 Now, go to `Assets\ULTRAKILL Assets\ExportedProject\Assets\Scripts\Assembly-CSharp` and find `Mindflayer.cs`. Open it with a text editor and delete the line containing `HideInInspector` above the active field.
 
-From the image below, you're gonna want to copy every value you can to your version of the Mindflayer prefab. Most of these prefabs are from your project's assets except for `Model` , Everything under `Tentacles` , `Right Hand` , `Charge Particle` , `Original Glow` and `Enrage Glow`. You might notice the color down below `Enrage Glow`. The value for the blue color is **PLACEHOLDER**
+From the image below, you're gonna want to copy every value you can to your version of the Mindflayer prefab. Most of these prefabs are from your project's assets except for `Model` , Everything under `Tentacles` , `Right Hand` , `Charge Particle` , `Original Glow` and `Enrage Glow`. You might notice the color down below `Enrage Glow`. It requires a gradient color. To get it follow these next steps:
+
+<details>
+
+<summary>How to Get the gradient color</summary>
+
+* Step 1: Copy the 2 lines below as you will edit the `mindflayer.prefab` in the files (not the .meta) using a notepad (or any other tool) and make sure to copy with spaces:
+
+> key0: {r: 0, g: 1, b: 0.52003455, a: 1}
+> key1: {r: 0, g: 1, b: 0.52003455, a: 0}
+
+* Step 2: Open `mindflayer.prefab` in the files with notepad (or any other tool) and search for `originalTentacleGradient`.
+
+* Step 3: Replace key0 and key1 under `SerializedVersion` with the lines above and make sure there are spaces.
+
+</details>
 
 <div style="text-align: center;">
 	<figure>
