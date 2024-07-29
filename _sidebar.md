@@ -25,7 +25,7 @@
 		* [Level Compressing](compress)
 		* [Fixing Enemies](enemy-fix)
 		* [Names of Enemies](names)
-   		* [How to get and use new 1.6.0 scripts](1.6.0)
+		* [How to get and use new 1.6.0 scripts](1.6.0)
 	* --Techniques--
 		* [Custom Plushies](plushy)
 		* [Custom Terminal Entry](Custom-Terminal-Entry)
