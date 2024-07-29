@@ -15,7 +15,7 @@
 		* [NavMesh](navmesh)
 		* [Compiling your level](compiling)
 	* --Components--
-		* [Components List](Components_list)
+		* [Components List](Components_List)
 		* [Slow-Mo](slowmo)
 		* [Object Activator](object-activator)
 			* [Ultrakill Event](ULTRAKILL-Event)
@@ -31,5 +31,3 @@
 		* [Custom Plushies](plushy)
 		* [Custom Terminal Entry](Custom-Terminal-Entry)
 		* [Dual Bosses](Symbiote)
-
-<!--DO NOT CHANGE THIS PAGE IN EDIT-->
