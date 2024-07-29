@@ -34,7 +34,7 @@ Now `Rooms to Inherit` is what you mainly want to be using, the stuff you assign
 
 Last but not least we have two things left, `To Activate`'s list and `Doors to Unlock`'s list, these are rather simple:
 
-- `To Activate` - Is a list where once the player hits the checkpoint, those gameobjects in the list will get activated.
+- `To Activate` - Is a field where once the player hits the checkpoint, the gameobject in the field gets activated.
 	- This is pretty useful for optimization because it allows big sections of levels to be disabled up until you reach them.
 	
-- `Doors to Unlock` - Is a really important list, as it unlocks previously locked doors from if you were in a wave and you died, wouldnt be nice if you died during a encounter and the door was still locked and you couldnt get in.
+- `Doors to Unlock` - Is a really important field, as it unlocks previously locked doors from if you were in a wave and you died, wouldnt be nice if you died during a encounter and the door was still locked and you couldnt get in.
