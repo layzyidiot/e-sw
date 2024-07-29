@@ -25,6 +25,9 @@ Well thats due to you having a checkpoint which contains a room/gameobject that 
 
 So lets firstly drag Checkpoint_0 into our scene and we can see some fields, Mainly `Rooms` and `Rooms to Inherit` , but what does this all mean? Well basically, `Rooms` is what gets saved when the scene is loaded, This isnt usually recommended but its there.
 
+>[!CAUTION]
+>Checkpoints mustn't be parented. They must be outside of everything.
+
 <img src="https://coolboi21.github.io/Rude-Docs/Tutorials/Beginner/assets/creating-checkpoints-checkpoint-settings.png" alt="checkpoint settings" width="50%" height="50%" >
 
 Now `Rooms to Inherit` is what you mainly want to be using, the stuff you assign to it will be saved once you HIT the checkpoint not during the start of the map, Additionally, if you are using this for encounters, Assign the `Stuff` gameobject here
@@ -34,4 +37,4 @@ Last but not least we have two things left, `To Activate`'s list and `Doors to U
 - `To Activate` - Is a list where once the player hits the checkpoint, those gameobjects in the list will get activated.
 	- This is pretty useful for optimization because it allows big sections of levels to be disabled up until you reach them.
 	
-- `Doors to Unlock` - Is a really important list, as it unlocks previously locked doors from if you were in a wave and you died, Wouldnt be nice if you died during a encounter and the door was still locked and you couldnt get in.
+- `Doors to Unlock` - Is a really important list, as it unlocks previously locked doors from if you were in a wave and you died, wouldnt be nice if you died during a encounter and the door was still locked and you couldnt get in.
