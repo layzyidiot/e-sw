@@ -63,7 +63,7 @@ This is by far the most important gameobject in the scene, As it actually contai
 
 <details>
 
-<summary>**If you want to use the direct First Room:**</summary>
+<summary>If you want to use the direct First Room:</summary>
 
 1. Place the First Room prefab from ULTRAKILL assets and unpack it.
 
@@ -71,11 +71,7 @@ This is by far the most important gameobject in the scene, As it actually contai
 
 3. Move the created gameobject outside of "Player" and delete the "Player".
 
-4. Place a "PlayerUtilities" gameobject as a child of "Player_2" with a "PlayerUtilities" component.
-
-5. Place an "Object Activator" component to the "Player_2" and put "PlayerUtilities" to the "On Activate" with a "DisablePlayer()"
-
-6. Disable a 'GameController' gameobject.
+4. Disable a 'GameController' gameobject.
 
 </details>
 
