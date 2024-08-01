@@ -20,4 +20,4 @@ It is recommended to have between 9-12 GB of storage on your pc.
 
 This Website is hosted by [<b>Lazy</b>](https://github.com/layzyidiot/e-sw/blob/main/images/lazy.png?raw=true), Most Pages here were written by [<b>DoomahReal</b>](https://github.com/layzyidiot/e-sw/blob/main/images/doomah.png?raw=true) and [<b>Spelar</b>](https://github.com/layzyidiot/e-sw/blob/main/images/spelar.png?raw=true).
 
-If there are any complaints and suggestions message @spelar_.
+If there are any complaints and suggestions message Spelar (@spelar_) in the [Envy & Spite Discord Server](https://discord.gg/ednF6VMVgy).
