@@ -41,7 +41,7 @@ Created by: Spelar. You can freely contribute here if you want to add or corrrec
 |Activate On Sound End|Activates a event when a sound has ended.
 |Add Force|Applies a force to the player.
 |Add Kill|Adds a kill to the StatsManager on start.
-|Additional Map Details|Adds author links (i.e. YoutUbe channel of a level creator). Made for Tundra/Agony, doesn't work in SPITE.
+|Additional Map Details|Adds author links (i.e. YouTube channel of a level creator). Made for Tundra/Agony, doesn't work in SPITE.
 |Addressable Replacer|Not a ULTRAKILL component but its common. It replaces a object its attached to with a other object that is in its "Path".
 |Advanced Options|Contains a function to reset cybergrind rank.
 |Agony Controller|Contains the prompt for reloading a level.
