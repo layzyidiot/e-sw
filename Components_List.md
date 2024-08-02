@@ -55,18 +55,18 @@ Created by: Spelar. You can freely contribute here if you want to add or corrrec
 |Animation Event To Ultrakill Event|Calls an ultrakill event when an animation event has been fired from an animatior with an event index to specify which event.
 |Animation Speed Randomizer|Randomises the speed of an animation on start, it uses maxRandomness to define the negative minimum range and positive maximum range.
 |Arena|Manages waves.
-|Arena Status|
-|Aspect Ratio Changer|
-|Asset Helper|Unknown
-|Assist Controller|
-|Assist Options|
-|Attack Trail|
-|Attribute Checker|
-|Audio Continue On Enable|
-|Audio Mixer Controller|
-|Author Link Row|
-|Auto Register State|
-|AutoComplete ComboBox|
+|Arena Status|Unknown. Seems to track the current wave?
+|Aspect Ratio Changer|Interpolates an AspectRatioFitter to the desired aspect ratio using the provided speed.
+|Asset Helper|Dynamically loads addressable prefabs.
+|Assist Controller|Stores all assist settings.
+|Assist Options|Controls all assist settings.
+|Attack Trail|Follows target while maintaining distance from pivot?
+|Attribute Checker|Useless by itself however it contains a DelayedActivate function which may be of use.
+|Audio Continue On Enable|Continues specified audio source on enable.
+|Audio Mixer Controller|Controls all audio mixing, such as music volume.
+|Author Link Row|Creates a UI element with author information that links to a url.
+|Auto Register State|Unknown.
+|AutoComplete ComboBox|Unity UI Extension script.
 
 </details>
 
