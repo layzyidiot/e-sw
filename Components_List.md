@@ -17,7 +17,7 @@ Created by: Spelar. You can freely contribute here if you want to add or corrrec
 
 ### Contributors:
 
-None
+[triggered∞idiot (@triggeredidiot)](https://github.com/triggered0idiot)
 
 </details>
 
