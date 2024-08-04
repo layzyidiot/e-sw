@@ -17,9 +17,9 @@ EnvyDL is currently down and you can't upload your levels right now. However som
 
 * 1: Find a file [joining service](https://pinetools.com/join-files).
 
-* 2. Download a [Spite Splitter by Nebula](https://github.com/SatisfiedBucket/SpiteSplitter/releases/tag/V1.0)
+* 2: Download a [Spite Splitter by Nebula](https://github.com/SatisfiedBucket/SpiteSplitter/releases/tag/V1.0)
 
-* 2: Select the .doomah. It will create parts in the same directory.
+* 3: Select the .doomah. It will create parts in the same directory.
 
 
 >[!IMPORTANT]
