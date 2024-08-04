@@ -26,6 +26,10 @@ You want to make sure hand.L.006 is the 2nd to last one, not the last one (Look 
 
 # Fixing Mindflayer
 
+### This is currently broken. Sorry for the inconvenience. 
+
+### -Spelar
+
 Mindflayer is different and harder to fix than the original Sisyphean Insurrectionist.
 
 Mindflayer, similar to the [Checkpoint](https://layzyidiot.github.io/e-sw/#/checkpoints?id=fixing), requires fixing Asset GUIDs.
