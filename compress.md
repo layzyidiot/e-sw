@@ -15,11 +15,12 @@ EnvyDL is currently down and you can't upload your levels right now. However som
 
 # How to do it
 
-* 1: Find a file [splitting service](https://pinetools.com/split-files) and [joining service](https://pinetools.com/join-files).
+* 1: Find a file [joining service](https://pinetools.com/join-files).
 
-* 2: Choose the maximum size option and set it to 25 MB for Discord and 100 MB for GitHub.
+* 2. Download a [Spite Splitter by Nebula](https://github.com/SatisfiedBucket/SpiteSplitter/releases/tag/V1.0)
 
-<img src="https://github.com/layzyidiot/e-sw/blob/main/images/nebula.png?raw=true" alt="nebula" width="65%" height="65%">
+* 2: Select the .doomah. It will create parts in the same directory.
+
 
 >[!IMPORTANT]
 >Link the joining service you use whenever you post the splitted files so that people can actually join them together.
