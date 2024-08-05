@@ -26,9 +26,10 @@ You want to make sure hand.L.006 is the 2nd to last one, not the last one (Look 
 
 # Fixing Mindflayer
 
-### This is currently broken. Sorry for the inconvenience. 
-
-### -Spelar
+>[!CAUTION]
+>This method is currently broken. Sorry for the inconvenience.
+>
+>-Spelar
 
 Mindflayer is different and harder to fix than the original Sisyphean Insurrectionist.
 
