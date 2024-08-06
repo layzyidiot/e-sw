@@ -4,5 +4,5 @@
 
 # Video
 
-#### The tutorial is skipped to when he installs Progrids as that will help you create levels, however this step can be skipped.
+<b>The tutorial is skipped to when he installs Progrids and starts building. Progrids is not required but recommended to help build consistant geometry.</b>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YtzIXCKr8Wo?si=PHyw3ZZKnrpqyFZW&amp;start=79" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
