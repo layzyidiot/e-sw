@@ -7,6 +7,7 @@
 
 * --- BEGINNINGS ---
 	*  --Tutorials--
+		* [Building your level](probuilder-tut)
 		* [Arena Setup](arena)
 		* [Music Setup](music-manager)
 		* [Checkpoint Setup](checkpoints)
