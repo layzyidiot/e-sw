@@ -28,6 +28,7 @@
 		* [Names of Enemies](names)
 		* [Challenges and TOTD](1.6.0)
 	* --Techniques--
+   		* [Delayed Level Start](DLS)
 		* [Custom Plushies](plushy)
 		* [Custom Terminal Entry](Custom-Terminal-Entry)
 		* [Dual Bosses](Symbiote)
