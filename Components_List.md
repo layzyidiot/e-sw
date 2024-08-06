@@ -47,12 +47,12 @@ Created by: Spelar. You can freely contribute here if you want to add or correct
 |Agony Controller|Contains the prompt for reloading a level.
 |Alt Pick Up|Unlocks a Alt. Weapon and destroys itself.
 |Alter Menu Elements|Creates some of the options seen in the main menu.
-|Alter Menu Vector 3 Field|Doesn't seem to be referenced in the game.
+|Alter Menu Vector 3 Field|Doesn't seem to be used by ULTRAKILL.
 |Always Look At Camera|Makes an object to always look at a camera. (enemies use this).
 |Ambient Glow|Creates a pulsating glow using a SpriteRenderer.
 |Animated Texture|Animates a texture.
 |Animation Event Message|Unusable, calls an inaccessible unity event when an animation event has been fired from an animator.
-|Animation Event To Ultrakill Event|Calls an ultrakill event when an animation event has been fired from an animator with an event index to specify which event.
+|Animation Event To Ultrakill Event|Calls an ULTRAKILL event when an animation event has been fired from an animator. It uses an event index to specify which event.
 |Animation Speed Randomizer|Randomises the speed of an animation on start, it uses maxRandomness to define the negative minimum range and positive maximum range.
 |Arena|Manages waves.
 |Arena Status|Unknown. Seems to track the current wave?
@@ -67,6 +67,68 @@ Created by: Spelar. You can freely contribute here if you want to add or correct
 |Author Link Row|Creates a UI element with author information that links to a URL.
 |Auto Register State|Unknown.
 |AutoComplete ComboBox|Unity UI Extension script.
+
+</details>
+
+<details>
+
+<summary>List (B)</summary>
+
+### Amount of components - 49
+#### This list is a work in progress
+
+|Component|Function|
+|---|---|
+|Back Select Event|Invokes a unity event when InvokeOnBack is called, most likely used for the main menu.
+|Back Select Override|Unknown.
+|Bait Item|Allows fish to be found using bait as seen in 5-S, this requires the Water component to work.
+|Bake Vertex Lights|Modifies _BakedLights(numberhere)Strength for a material. It is unknown what its purpose is.
+|Basic Confirmation Dialog|Basic functionality to show a confirmation dialog which fires an event on confirm.
+|Basic Enemy Data Relay|Unusable for maps, mostlikely used for internal game logic.
+|Battle Dimming Lights|Dims lights while in an arena, must be a parent of the lights.
+|Beam gun|Unknown.
+|Beam gun Beam|Unknown.
+|Beat Info|Unknown.
+|Bestiary Check|Unknown.
+|Bestiary Data|Unknown.
+|Big Door|Unknown.
+|Big Door Opener|Unknown.
+|billboard|Unknown.
+|Black Hole Cannon|Unknown.
+|Black Hole Projectile|Unknown.
+|Black Hole Trigger|Unknown.
+|Bleeder|Unknown.
+|Blink|Unknown.
+|Blood Absorber|Unknown.
+|Blood Absorber Child|Unknown.
+|Blood Checker Manager|Unknown.
+|Blood Destroyer|Unknown.
+|Blood Filler|Unknown.
+|Blood splatter|Unknown.
+|Blood splatter Manager|Unknown.
+|Blood splatter Sound picker|Unknown.
+|Blood stain|Unknown.
+|Blood stain Parent|Unknown.
+|Blood Underwater Checker|Unknown.
+|Bonus|Unknown.
+|Bootstrap|Unknown.
+|Boss Bar Manager|Unknown.
+|Boss Health Bar|Unknown.
+|Boss Health Bar Template|Unknown.
+|Boss Health Slider Template|Unknown.
+|Boss Identifier|Unknown.
+|Breakable|Unknown.
+|Break Breakables|Unknown.
+|Break Chunks|Unknown.
+|Break On Impact|Unknown.
+|Break Particle|Unknown.
+|Break Zone|Unknown.
+|Brush Block|Unknown.
+|Bulk Instantiate|Unknown.
+|Bullet Check|Unknown.
+|Burning Voxel|Unknown.
+|Button Highlight Parent|Unknown.
+|Button State|Unknown.
 
 </details>
 
