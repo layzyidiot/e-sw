@@ -16,7 +16,7 @@
 		* [NavMesh](navmesh)
 		* [Compiling your level](compiling)
 	* --Components--
-		* [Components List](Components_List)
+		* [Components List(WIP)](Components_List)
 		* [Slow-Mo](slowmo)
 		* [Object Activator](object-activator)
 			* [Ultrakill Event](ULTRAKILL-Event)
