@@ -58,7 +58,7 @@ Amount of components - 19
 
 <summary>List (B)(WIP)</summary>
 
-Amount of components - 23
+Amount of components - 21
 
 This list is a work in progress
 
@@ -71,8 +71,6 @@ This list is a work in progress
 |Big Door|Used for dual doors. Requires "Door" tag.
 |Big Door Opener|Opens big doors.
 |billboard|Used for billboard rendering?
-|Bleeder|Unknown.
-|Blink|Unknown.
 |Blood Absorber|Makes object paintable by blood.
 |Blood Absorber Child|Made for gameobjects that are parented for a gameobject with a "Blood Absorber" script.
 |Blood Checker Manager|Manages Washing Progress HUD in 7-S.
