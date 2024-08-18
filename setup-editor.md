@@ -6,10 +6,6 @@
 [<span style="color:#FF00FF">Vanity</span>](https://github.com/ImNotSimon/Vanity-tool/releases/) ,
 [DotNet SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) 
 
-# <b>Youtube tutorial.</b>
-
-<iframe width="525" height="300" src="https://www.youtube.com/embed/Zf-Q9YfU3O8" title="ENVY &amp; SPITE VANITY INSTALLATION TUTORIAL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ---
 
 # <b>Downloading the necessary requirements for <span style="color:#FF00FF">Vanity</span></b>
@@ -32,35 +28,35 @@ Head to the first link for <span style="color:#ADD8E6"><b>[DotNet SDK 8.0](https
 
 --- 
 
-# <b>Time to actually use <span style="color:#FF00FF">Vanity</span> itself.</b>
+# <b>Time to actually use <span style="color:#FF00FF">Vanity Reprise</span> itself.</b>
 
 > **<code style="color : red">[!CAUTION]</code>**
-> **<code style="color : red">Vanity extracts a lot of ultrakill assets and usually is heavy on most pcs.</code>**
+> **<code style="color : red">Vanity Reprise extracts a lot of ULTRAKILL assets.</code>**
 **<code style="color : red">It is recommended to have between 9-12 GB of storage on your pc.</code>**
 <!-- This thing looks horrible lmao -->
 
 
-Head over to the latest <span style="color:#ADD8E6"><b>[Releases page for Vanity](https://github.com/ImNotSimon/Vanity-tool/releases/)</b></span>, and download the latest .rar file
+Head over to the latest <span style="color:#ADD8E6"><b>[Releases page for Vanity Reprise](https://github.com/eternalUnion/VanityReprised/releases)</b></span>, and download the latest .zip file
 
 <div style="text-align: center;">
-    <img src="https://github.com/layzyidiot/e-sw/blob/main/images/3.png?raw=true" alt="Vanity Releases Page" width="90%" height="90%" >
+    <img src="https://github.com/layzyidiot/e-sw/blob/main/images/VR_1.png?raw=true" alt="Vanity Releases Page" width="90%" height="90%" >
 </div>
 
-Extract the rar and run Vanity.GUI.exe
+Extract the .zip and run Vanity.GUI.exe
 
 <div style="text-align: center;">
-    <img src="https://github.com/layzyidiot/e-sw/blob/main/images/5.png?raw=true" alt="Vanity.exe" width="50%" height="50%" >
+    <img src="https://github.com/layzyidiot/e-sw/blob/main/images/VR_2.png?raw=true" alt="Vanity.exe" width="50%" height="50%" >
 </div>
 
 Command Prompt should open up and you should see the splash screen, Follow the instructions until done (<b>Note: Extracting usually takes a while and is heavy on some older computers</b>)
 
 <div style="text-align: center;">
-    <img src="https://github.com/layzyidiot/e-sw/blob/main/images/6.png?raw=true" alt="Vanity CMD" width="90%" height="90%" >
+    <img src="https://github.com/layzyidiot/e-sw/blob/main/images/VR_3.png?raw=true" alt="Vanity CMD" width="80%" height="80%" >
 </div>
 
 # <b>POST-EXTRACTION</b>
 
-Once vanity is ran and has completed patching GUIDs, open Unity Hub, click the little arrow next to the "Add" Button, and select the location of where you chose to install the editor via <span style="color:#FF00FF">Vanity</span>.
+Once Vanity Reprise is run and has completed patching GUIDs, open Unity Hub, click the little arrow next to the "Add" Button, click "Add from disk" and select the location of where you chose to install the editor.
 
 <div style="text-align: center;">
     <img src="https://github.com/layzyidiot/e-sw/blob/main/images/AddProject1.png?raw=true" alt="Unity Hub" width="90%" height="90%" >
