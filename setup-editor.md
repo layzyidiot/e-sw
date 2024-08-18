@@ -3,12 +3,12 @@
 
 > <strong>PREREQUISITES:</strong>
 [Unity 2019.4.40f1](https://unity.com/releases/editor/whats-new/2019.4.40#release-notes) ,
-[<span style="color:#FF00FF">Vanity</span>](https://github.com/ImNotSimon/Vanity-tool/releases/) ,
+[<span style="color:#FF00FF">Vanity Reprise</span>](https://github.com/eternalUnion/VanityReprised/releases) ,
 [DotNet SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) 
 
 ---
 
-# <b>Downloading the necessary requirements for <span style="color:#FF00FF">Vanity</span></b>
+# <b>Downloading the necessary requirements for <span style="color:#FF00FF">Vanity Reprise</span></b>
 
 Head to the first link for <span style="color:#ADD8E6"><b>[DotNet SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)</b></span> and install the exe from the image below and run the setup.exe
 
@@ -42,7 +42,7 @@ Head over to the latest <span style="color:#ADD8E6"><b>[Releases page for Vanity
     <img src="https://github.com/layzyidiot/e-sw/blob/main/images/VR_1.png?raw=true" alt="Vanity Releases Page" width="90%" height="90%" >
 </div>
 
-Extract the .zip and run Vanity.GUI.exe
+Extract the .zip and run Vanity.GUI.Free.exe
 
 <div style="text-align: center;">
     <img src="https://github.com/layzyidiot/e-sw/blob/main/images/VR_2.png?raw=true" alt="Vanity.exe" width="50%" height="50%" >
