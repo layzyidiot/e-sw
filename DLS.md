@@ -11,4 +11,5 @@
 4. Disable the gameobject.
 
 5. Create a Object Activator that will activate the gameobject.
+
 Done.
