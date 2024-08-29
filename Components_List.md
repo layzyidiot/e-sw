@@ -6,14 +6,14 @@
 
 This is a list of all components in the SPITE Level Editor that are useful in creating maps.
 
-Created by: Spelar. You can freely contribute here if you want to add or correct something. Or you can message me in Discord (@Spelar_).
+Created by: Alma. You can freely contribute here if you want to add or correct something. Or you can message me in Discord (@Almaa_1.).
 
 <details>
 	<summary>Credits</summary>
 
 ## Credits
 
-Page by: [<b>Spelar (@spelar_)</b>](https://github.com/layzyidiot/e-sw/blob/main/images/spelar.png?raw=true).
+Page by: Alma(@almaa_1.)
 
 Contributors:
 
