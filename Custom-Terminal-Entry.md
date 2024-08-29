@@ -60,7 +60,7 @@ Background color : Each enemy type has a specific color attached to it. Here is 
 
 ---
 
-Page by Spelar(Spelar_)
+Page by Alma(almaa_1.)
 
 
 
