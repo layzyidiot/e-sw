@@ -66,8 +66,6 @@ Once Vanity Reprise is run and has completed patching GUIDs, open Unity Hub, cli
 
 Open the project. When doing so you'll always be prompted with a window asking to update backends and API related stuff, **Always make sure to say no to these popups when opening <span style="color:red">Spite</span>.** 
 
-Then after opening the project, install [a fix](https://discord.com/channels/1227272001719111750/1227272002163965962/1274786972979695676) and drag it inside the Unity Window.
-
 ---
 
 <div style="text-align: center;">
