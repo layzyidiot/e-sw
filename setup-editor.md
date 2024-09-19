@@ -25,9 +25,6 @@ Head to the first link for <span style="color:#ADD8E6"><b>[DotNet SDK 8.0](https
     <img src="https://github.com/layzyidiot/e-sw/blob/main/images/4.png?raw=true" alt="Unity 2019.4.40" width="90%" height="90%">
 </div>
 
-> [!IMPORTANT]
-> Currently Vanity Reprise requires a fix to work which can be found [here](https://discord.com/channels/1227272001719111750/1227272002163965962/1274786972979695676). To install it simply grab the .unitypackage to the unity window and export all.
-
 --- 
 
 # <b>Time to actually use <span style="color:#FF00FF">Vanity Reprise</span> itself.</b>
