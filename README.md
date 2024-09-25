@@ -10,14 +10,14 @@
 
 # Spite Editor Documentions + misc things
 
-This wiki is here to educate and hopefully be the main source of knowledge for all new people to the editor such as installing and techniques and fixes to the editor and maybe tools, People can also suggest pages at our [<b>discord server</b>](https://discord.gg/RY8J67neJ9). To begin, [<b>Click here</b>](https://layzyidiot.github.io/e-sw/#/setup-editor).
+This wiki is here to educate and hopefully be the main source of knowledge for all new people to the editor such as installing, techniques and fixes to the editor and maybe tools. People can also suggest pages at our [<b>discord server</b>](https://discord.gg/RY8J67neJ9). To begin, [<b>Click here</b>](https://layzyidiot.github.io/e-sw/#/setup-editor).
 
 > [!CAUTION]
-> Vanity extracts alot of ultrakill assets and usually is heavy on most pcs.
+> Vanity extracts a lot of ultrakill assets and usually is heavy on most PCs.
 It is recommended to have between 9-12 GB of storage on your pc.
 
 ---
 
-This Website is hosted by [<b>Lazy</b>](https://github.com/layzyidiot/e-sw/blob/main/images/lazy.png?raw=true), Most Pages here were written by [<b>DoomahReal</b>](https://github.com/layzyidiot/e-sw/blob/main/images/doomah.png?raw=true) and [<b>Spelar</b>](https://github.com/layzyidiot/e-sw/blob/main/images/spelar.png?raw=true).
+This Website is hosted by [<b>Lazy</b>](https://github.com/layzyidiot/e-sw/blob/main/images/lazy.png?raw=true), Most Pages here were written by [<b>DoomahReal</b>](https://github.com/layzyidiot/e-sw/blob/main/images/doomah.png?raw=true) and Alma.
 
-If there are any complaints or suggestions message [<b>Spelar (@spelar_)</b>](https://github.com/layzyidiot/e-sw/blob/main/images/spelar.png?raw=true) in the [<b>Envy & Spite Discord Server</b>](https://discord.gg/ednF6VMVgy).
+If there are any complaints or suggestions message Alma in the [<b>Envy & Spite Discord Server</b>](https://discord.gg/ednF6VMVgy).
