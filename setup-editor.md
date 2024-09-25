@@ -27,12 +27,11 @@ Head to the first link for <span style="color:#ADD8E6"><b>[DotNet SDK 8.0](https
 
 --- 
 
-# <b>Time to actually use <span style="color:#FF00FF">Vanity Reprise</span> itself.</b>
+# <b>How to use <span style="color:#FF00FF">Vanity Reprise</span>.</b>
 
 > **<code style="color : red">[!CAUTION]</code>**
 > **<code style="color : red">Vanity Reprise extracts a lot of ULTRAKILL assets.</code>**
 **<code style="color : red">It is recommended to have between 9-12 GB of storage on your pc.</code>**
-<!-- This thing looks horrible lmao -->
 
 
 Head over to the latest <span style="color:#ADD8E6"><b>[Releases page for Vanity Reprise](https://github.com/eternalUnion/VanityReprised/releases)</b></span>, and download the latest .zip file
@@ -53,7 +52,7 @@ Command Prompt should open up and you should see the splash screen, Follow the i
     <img src="https://github.com/layzyidiot/e-sw/blob/main/images/VR_3.png?raw=true" alt="Vanity CMD" width="80%" height="80%" >
 </div>
 
-# <b>POST-EXTRACTION</b>
+# <b>Post-Extraction</b>
 
 Once Vanity Reprise is run and has completed patching GUIDs, open Unity Hub, click the little arrow next to the "Add" Button, click "Add from disk" and select the location of where you chose to install the editor.
 
