@@ -27,5 +27,6 @@
     * [Delayed Level Start](DLS)
 
 * Misc
+    * [Challenges and Tips](1.6.0)
     * [Level Compressing](compress)
     * [Names of Enemies](names)
