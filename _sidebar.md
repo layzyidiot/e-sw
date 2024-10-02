@@ -25,7 +25,6 @@
 * --- TECHNIQUES/MISC ---
  	* --Misc--
 		* [Level Compressing](compress)
-		* [Fixing Enemies](enemy-fix)
 		* [Names of Enemies](names)
 		* [Challenges and TOTD](1.6.0.md)
 	* --Techniques--
