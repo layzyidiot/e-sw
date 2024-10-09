@@ -23,7 +23,4 @@ All official ULTRAKILL maps use this way of optimization. It works by simply dis
 
 Info and pictures were taken from the [Tundra Wiki](https://docs.tundra.pitr.dev/guides/optimization)
 
-Page by:Spelar(@spelar_)
-
-
 
