@@ -25,7 +25,6 @@
 * --- TECHNIQUES/MISC ---
  	* --Misc--
 		* [Level Compressing](compress)
-		* [Names of Enemies](names)
 		* [Challenges and TOTD](1.6.0.md)
 	* --Techniques--
 		* [Custom Plushies](plushy)
