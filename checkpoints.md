@@ -1,30 +1,44 @@
-# Setting up a checkpoint.
 <i><span style="color:FireBrick; font-size:10px;">Need help? Come to the Envy & Spite Discord server at <a href="https://discord.gg/RY8J67neJ9">https://discord.gg/RY8J67neJ9</a>!</span></i>
+# Functionality
+<img align="right" src="https://coolboi21.github.io/Rude-Docs/Tutorials/Beginner/assets/creating-checkpoints-checkpoint-settings.png" alt="checkpoint settings" width="50%" height="50%" >
 
-# Beginning
-
-<b>Checkpoints are usually over looked in levels However , They play an essential part in how levels are played, as dying and starting all over isnt fun.</b>
-
-# Actual usage
-
-<b>Alright lets explain 1 thing, Checkpoints can crash your game.</b>
-
-*But you may be wondering why?*
-
-Well thats due to you having a checkpoint which contains a room/gameobject that has another checkpoint under it.
-
-So lets firstly drag Checkpoint_0 into our scene and we can see some fields, Mainly `Rooms` and `Rooms to Inherit` , but what does this all mean? Well basically, `Rooms` is what gets saved when the scene is loaded, This isnt usually recommended but its there.
+* Force Off
+	* Forcefully turns the checkpoint off
+	* Ideal to use this over just deactivating the checkpoint, as it can break checkpoints otherwise if 2 reset the same object
+   	* Use the `SetForceOff()` event to turn this on/off on runtime
+* Rooms
+	* List of objects to be reset <i><b>on the level being loaded</b></i>
+* Rooms To Inherit
+  	* List of objects to be reset <i><b>on the checkpoint being hit</b></i>
+>[!TIP]
+>Wrong placement of an object between `Rooms` and `Rooms To Inherit` is an easy way to cause a <b>Sequence Break</b> in a level, where you can trigger certain events under conditions that aren't intended. Think about what you're resetting and how it can be abused by passing through the checkpoint at the wrong time(or not at all)
 
 >[!CAUTION]
->Checkpoints mustn't be parented. They must be outside of everything.
+>References to objects in `Rooms` and `Rooms To Inherit` will break because the checkpoint activates clones of them on runtime. The `Arena Status`  script can solve issues between static/nonstuff -> gorezone
+* Doors To Unlock
+  	* List of objects with `Door` script to be unlocked <i><b>on respawn</b></i>
+* Multi Use
+	* Regenerates the checkpoint after going through it (Use the `CheckpointReusable` prefab)
+* Dont Auto Reset
+	* Prevents the checkpoint from immediately activating(in cases where you'd want to call the `ResetRoom()` and `InheritRoom()` events manually)
+* Start Off
+	* Checkpoint object is deactivated on scene load
+* Unteleportable
+	* Removes checkpoint from list of checkpoints to teleport to in the cheats menu
+* Invisible
+	* Hides checkpoint graphic
+	* Can be toggled on runtime with `SetForceOff()` event
+* On Restart()
+	* List of UnityEvents to be called when the player respawns
+>[!CAUTION]
+>Checkpoints can only be parented to empty objects at `0,0,0` position
 
-<img src="https://coolboi21.github.io/Rude-Docs/Tutorials/Beginner/assets/creating-checkpoints-checkpoint-settings.png" alt="checkpoint settings" width="50%" height="50%" >
-
-Now `Rooms to Inherit` is what you mainly want to be using, the stuff you assign to it will be saved once you HIT the checkpoint not during the start of the map, Additionally, if you are using this for encounters, Assign the `Stuff` gameobject here
-
-Last but not least we have two things left, `To Activate`'s list and `Doors to Unlock`'s list, these are rather simple:
-
-- `To Activate` - Is a field where once the player hits the checkpoint, the gameobject in the field gets activated.
-	- This is pretty useful for optimization because it allows big sections of levels to be disabled up until you reach them.
-	
-- `Doors to Unlock` - Is a really important field, as it unlocks previously locked doors from if you were in a wave and you died, wouldnt be nice if you died during a encounter and the door was still locked and you couldnt get in.
+# Pitfalls
+Checkpoints can break if they dont have the following:
+- Object in `To Activate`
+   	- There must be a gorezone on your object
+- Object in `Rooms` <b>OR</b> `Rooms to Inherit`
+  	- There must be gorezones on each of your objects in `Rooms` or `Rooms to Inherit`
+ 	- Objects cannot contain other checkpoints in them
+>[!WARNING]
+>In some cases, having <a href="https://docs.unity3d.com/Manual/StaticObjects.html">static flags</a> on an object that gets reset can cause issues with the checkpoint. Generally, if an object has static flags, it shouldn't be changing and need to be reset in the first place.
