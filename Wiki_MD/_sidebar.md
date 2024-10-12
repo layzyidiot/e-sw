@@ -1,4 +1,4 @@
-* [Welcome](README)
+* [Welcome](Wiki_MD/README)
 
 * --- SETUP ---
 
