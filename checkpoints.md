@@ -5,16 +5,6 @@
 
 <b>Checkpoints are usually over looked in levels However , They play an essential part in how levels are played, as dying and starting all over isnt fun.</b>
 
-# Fixing
-
-A problem with checkpoints in spite is their particles as they are an addressable asset, and <span style="color:#FF00FF">Vanity</span> generates a unique <span style="color:red">Spite</span> project everytime... So lets see how to fix them first before anything else.
-
-Firstly locate in <b>FILE EXPLORER NOT UNITY</B> the file named `Checkpoint_0.prefab` and open it with notepad or some text editor and search for `activateEffect` and copy its "m_AssetGUID" field
-
-<img src="https://github.com/layzyidiot/e-sw/blob/main/images/activate.png?raw=true" alt="guid" width="100%" height="100%" >
-
-Go ahead now and find `CheckpointActivate.prefab.meta` now, and change its guid to the one from "m_AssetGUID" field
-
 # Actual usage
 
 <b>Alright lets explain 1 thing, Checkpoints can crash your game.</b>
