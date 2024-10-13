@@ -9,3 +9,4 @@ Here you will learn how to create your first custom ULTRAKILL level from scratch
 
 
 [![Start The Course](https://github.com/layzyidiot/e-sw/blob/main/images/course_button.png?raw=true)](https://layzyidiot.github.io/e-sw/#/)
+</div>
