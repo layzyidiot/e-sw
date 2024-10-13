@@ -1,10 +1,10 @@
 <div style="text-align: center;">
 
-# Welcome to the <color:"red">Spite Level Editor</color> Course
+# Welcome to the <span style="color:red">Spite Level Editor</span> Course
 
 Here you will learn how to create your first custom ULTRAKILL level from scratch.
 
-> [!NOTICE]
+> [!WARNING]
 > You need to have Spite installed on your PC for this course. The tutorial on it can be found [here](Setup/setup-editor).
 
 
