@@ -1,5 +1,5 @@
 # Custom Terminal Entry
-<i><span style="color:FireBrick; font-size:10px;">Need help? Come to the Envy & Spite Discord server at <a href="https://discord.gg/RY8J67neJ9">https://discord.gg/RY8J67neJ9</a>!</span></i>
+<i><span style="color:FireBrick; font-size:20px;">Need help? Come to the Envy & Spite Discord server at <a href="https://discord.gg/RY8J67neJ9">https://discord.gg/RY8J67neJ9</a>!</span></i>
 
 # Beginning
 Lets assume you have made a custom enemy and now you want to make its own entry in the terminal. This page will show you how to do it.

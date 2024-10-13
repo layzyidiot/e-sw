@@ -1,5 +1,5 @@
 <h1>Dual Bosses (Symbiote)</h1>
-<i><span style="color:FireBrick; font-size:10px;">Need help? Come to the Envy & Spite Discord server at <a href="https://discord.gg/RY8J67neJ9">https://discord.gg/RY8J67neJ9</a>!</span></i>
+<i><span style="color:FireBrick; font-size:20px;">Need help? Come to the Envy & Spite Discord server at <a href="https://discord.gg/RY8J67neJ9">https://discord.gg/RY8J67neJ9</a>!</span></i>
 
 To start off, you'll first need 2 enemies with the `Machine` component. <i>This will not work if both enemies do not have the </i>`Machine`<i> component. </i>
 

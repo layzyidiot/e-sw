@@ -1,5 +1,5 @@
 <h1> Optimization</h1>
-<i><span style="color:FireBrick; font-size:10px;">Need help? Come to the Envy & Spite Discord server at <a href="https://discord.gg/RY8J67neJ9">https://discord.gg/RY8J67neJ9</a>!</span></i>
+<i><span style="color:FireBrick; font-size:20px;">Need help? Come to the Envy & Spite Discord server at <a href="https://discord.gg/RY8J67neJ9">https://discord.gg/RY8J67neJ9</a>!</span></i>
 
 Maps can be quite heavy for some PCs to run, especially if they are big and open. So you need to optimize them in order to create a smooth experience. Here you will learn how to do that.
 
