@@ -4,7 +4,7 @@
 
 Here you will learn how to create your first custom ULTRAKILL level from scratch.
 
-> [!WARNING]
+> [!IMPORTANT]
 > You need to have Spite installed on your PC for this course. The tutorial on it can be found [here](Setup/setup-editor).
 
 
