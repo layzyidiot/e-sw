@@ -13,7 +13,7 @@ It is very simple to create your level.
 
     * 5. And now just press the `Create Level` button. <img src="https://github.com/layzyidiot/e-sw/blob/main/images/spite-tab.png?raw=true" alt="SPITE Tab">
 
-<div style="text-align: right;">
+<div style="text-align: left;">
 [![Back](https://github.com/layzyidiot/e-sw/blob/main/images/course_button_back.png?raw=true)](https://layzyidiot.github.io/e-sw/#/Spite-Course/0_Course-Start)
 <div>
 
