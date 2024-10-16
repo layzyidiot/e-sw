@@ -15,7 +15,6 @@ It is very simple to create your level.
 
 [![Back](https://github.com/layzyidiot/e-sw/blob/main/images/course_button_back.png?raw=true)](https://layzyidiot.github.io/e-sw/#/Spite-Course/0_Course-Start)
 
-<a href="https://layzyidiot.github.io/e-sw/#/Spite-Course/2_Level-Stats-Info" style="float: right; padding: 10px 20px; color: white; background-color: #007BFF; text-decoration: none; border-radius: 5px;">
-  <img src="https://github.com/layzyidiot/e-sw/blob/main/images/course_button_next.png" alt="Icon" style="vertical-align: middle; width: 20px; height: 20px; margin-right: 5px;" />
-  Right Button
+<a href="https://layzyidiot.github.io/e-sw/#/Spite-Course/2_Level-Stats-Info">
+  <img src="https://github.com/layzyidiot/e-sw/blob/main/images/course_button_next.png"/>
 </a>
