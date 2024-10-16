@@ -2,7 +2,7 @@
 
 # Welcome to the <span style="color:red">Spite Level Editor</span> Course
 
-Here you will learn how to create your first custom ULTRAKILL level from scratch.
+Here you will learn how to create your first custom ULTRAKILL level from scratch. From simple stuff to the complicated ones.
 
 > [!IMPORTANT]
 > You need to have Spite installed on your PC for this course. The tutorial on it can be found [here](Setup/setup-editor).
