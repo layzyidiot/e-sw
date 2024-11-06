@@ -10,7 +10,7 @@
 
 # Spite Editor Documentions + misc things
 
-This wiki is here to educate and hopefully be the main source of knowledge for all new people to the editor such as installing, techniques and fixes to the editor and maybe tools. People can also suggest pages at our [<b>discord server</b>](https://discord.gg/RY8J67neJ9). To begin, [<b>Click here</b>](https://layzyidiot.github.io/e-sw/#/setup-editor).
+This wiki is here to educate and hopefully be the main source of knowledge for all new people to the editor such as installing, techniques and fixes to the editor and maybe tools. People can also suggest pages at our [<b>discord server</b>](https://discord.gg/RY8J67neJ9). To begin, [<b>Click here</b>](https://layzyidiot.github.io/e-sw/#/Setup/setup-editor).
 
 > [!CAUTION]
 > Vanity extracts a lot of ultrakill assets and usually is heavy on most PCs.
