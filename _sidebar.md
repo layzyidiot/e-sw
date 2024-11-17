@@ -23,13 +23,12 @@
 		* [Screenshake Component](Beginnings/Components/screenshake)
 
 * --- TECHNIQUES/MISC ---
- 	* --Misc--
-		* [Level Compressing](Tech_Misc/Misc/compress)
-		* [Names of Enemies](Tech_Misc/Misc/names)
-		* [Challenges and TOTD](Tech_Misc/Misc/1.6.0.md)
 	* --Techniques--
 		* [Custom Plushies](Tech_Misc/Techniques/plushy)
 		* [Custom Terminal Entry](Tech_Misc/Techniques/Custom-Terminal-Entry)
-		* [Challenges and TOTD (/Tech_Misc/Techniques/1.6.0)
+        * [Challenges and TOTD](Tech_Misc/Techniques/1.6.0)
 		* [Dual Bosses](Tech_Misc/Techniques/Symbiote)
 		* [Delayed Level Start](Tech_Misc/Techniques/DLS)
+	* --Misc--
+		* [Level Compressing](Tech_Misc/Misc/compress)
+		* [Names of Enemies](Tech_Misc/Misc/names)
