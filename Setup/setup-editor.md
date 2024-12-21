@@ -46,7 +46,7 @@ Extract the .zip and run Vanity.GUI.Free.exe
     <img src="https://github.com/layzyidiot/e-sw/blob/main/images/VR_2.png?raw=true" alt="Vanity.exe" width="50%" height="50%" >
 </div>
 
-Command Prompt should open up and you should see the splash screen, Follow the instructions until done (<b>Note: Extracting usually takes a while and is heavy on some older computers</b>)
+Command Prompt should open up and you should see the splash screen. Follow the instructions until you see 'Export: Finished post-export', meaning that Vanity Reprise is done. (<b>Note: Extracting usually takes a while and is heavy on some older computers</b>)
 
 <div style="text-align: center;">
     <img src="https://github.com/layzyidiot/e-sw/blob/main/images/VR_3.png?raw=true" alt="Vanity CMD" width="80%" height="80%" >
