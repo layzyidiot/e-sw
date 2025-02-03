@@ -22,6 +22,4 @@ This Website is hosted by [<b>Lazy</b>](https://github.com/layzyidiot/e-sw/blob/
 
 If there are any complaints or suggestions message Alma in the [<b>Envy & Spite Discord Server</b>](https://discord.gg/ednF6VMVgy).
 
-Note: A new wiki is being developed. Due to this, this wiki will only have small updates.
-
 [<b>Link to the wiki repository</b>](https://github.com/layzyidiot/e-sw)
