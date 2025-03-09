@@ -5,7 +5,7 @@
 # Overview
 
 ULTRAKILL's levels are built using a unity tool called 'Probuilder'. Probuilder is like a 3d modeling software built directly into unity. It makes it easy to quickly modify your level's geometry.
-Probuilder automatically creates a collider for you and lets you subdivide your meshes to increase the quality of [ULTRAKILL's vertex lighting system](light), however don't subdivide too much as that will cause performance issues.
+Probuilder automatically creates a collider for you and lets you subdivide your meshes to increase the quality of [ULTRAKILL's vertex lighting system](https://layzyidiot.github.io/e-sw/#/Beginnings/Tutorials/light), however don't subdivide too much as that will cause performance issues.
 
 # Video guide
 
