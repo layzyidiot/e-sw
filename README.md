@@ -18,8 +18,12 @@ It is recommended to have between 9-12 GB of storage on your pc.
 
 ---
 
+> [!NOTE]
+> This wiki is no longer maintained. A new one is here: [SpiteDocs (WIP)](https://envy-spite-team.github.io/SpiteDocs/docs/intro)
+
 This Website is hosted by [<b>Lazy</b>](https://github.com/layzyidiot/e-sw/blob/main/images/lazy.png?raw=true), Most Pages here were written by [<b>DoomahReal</b>](https://github.com/layzyidiot/e-sw/blob/main/images/doomah.png?raw=true) and Alma.
 
 If there are any complaints or suggestions message Alma in the [<b>Envy & Spite Discord Server</b>](https://discord.gg/ednF6VMVgy).
 
 [<b>Link to the wiki repository</b>](https://github.com/layzyidiot/e-sw)
+
